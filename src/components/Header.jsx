@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className="header">
             <p>Genki Kanji</p>
-            <div>
+            <div className='searchbar'>
                 <input type="text" />
                 <SearchIcon />
             </div>

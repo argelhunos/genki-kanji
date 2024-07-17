@@ -18,6 +18,13 @@
     padding: 30px;
 }
 
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
 input {
     padding: 10px;
 }
@@ -95,7 +102,18 @@ input {
     max-width: 2em;
 }
 
+.lesson-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #45BB53;
+    font-weight: bold;
+    color: white;
+    border-radius: 3em;
+    width: 3em;
+    height: 2em;
+}
+
 .selector {
-    margin-left: 1%;
-    margin-top: 1%;
+    margin: 1%;
 }
