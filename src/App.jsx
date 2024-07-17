@@ -1446,17 +1446,150 @@ function App() {
         {kanji: "昔話", kana: "むかしばなし", eng: "old tale"},
         {kanji: "大昔", kana: "おおむかし", eng: "ancient times"},
       ],
-      strokes: [],
+      strokes: ["src/assets/lesson12/ancient/mukashi_1.svg", "src/assets/lesson12/ancient/mukashi_2.svg", "src/assets/lesson12/ancient/mukashi_3.svg", "src/assets/lesson12/ancient/mukashi_4.svg", "src/assets/lesson12/ancient/mukashi_5.svg", "src/assets/lesson12/ancient/mukashi_6.svg", "src/assets/lesson12/ancient/mukashi_7.svg", "src/assets/lesson12/ancient/mukashi_8.svg"],
       lesson: "Lesson 12"
     },
     {
       character: "々", meaning: "symbol of repetition of a kanji", onyomi: "　", kunyomi: "　",
       examples: [
-        {kanji: "昔", kana: "むかし", eng: "old times"},
-        {kanji: "昔話", kana: "むかしばなし", eng: "old tale"},
-        {kanji: "大昔", kana: "おおむかし", eng: "ancient times"},
+        {kanji: "昔々", kana: "むかしむかし", eng: "once upon a time"},
+        {kanji: "人々", kana: "ひとびと", eng: "people"},
+        {kanji: "時々", kana: "ときどき", eng: "sometimes"},
+        {kanji: "色々な", kana: "いろいろな", eng: "various"},
       ],
-      strokes: [],
+      strokes: ["src/assets/lesson12/repeater/(yama)yama_1.svg", "src/assets/lesson12/repeater/(yama)yama_2.svg", "src/assets/lesson12/repeater/(yama)yama_3.svg"],
+      lesson: "Lesson 12"
+    },
+    {
+      character: "神", meaning: "God", onyomi: "じん　しん　こう", kunyomi: "かみ",
+      examples: [
+        {kanji: "神さま", kana: "かみさま", eng: "God"},
+        {kanji: "神社", kana: "じんじゃ", eng: "shrine"},
+        {kanji: "神道", kana: "しんとう", eng: "Shinto"},
+        {kanji: "神戸市", kana: "こうべし", eng: "Kobe City"},
+      ],
+      strokes: ["src/assets/lesson12/god/shin-kami_1.svg", "src/assets/lesson12/god/shin-kami_2.svg", "src/assets/lesson12/god/shin-kami_3.svg", "src/assets/lesson12/god/shin-kami_4.svg", "src/assets/lesson12/god/shin-kami_5.svg", "src/assets/lesson12/god/shin-kami_6.svg", "src/assets/lesson12/god/shin-kami_7.svg", "src/assets/lesson12/god/shin-kami_8.svg", "src/assets/lesson12/god/shin-kami_9.svg"],
+      lesson: "Lesson 12"
+    },
+    {
+      character: "早", meaning: "early", onyomi: "そう", kunyomi: "はや",
+      examples: [
+        {kanji: "早い", kana: "はやい", eng: "early"},
+        {kanji: "早起きる", kana: "はやおきする", eng: "to get up early"},
+        {kanji: "早朝", kana: "そうちょう", eng: "early morning"}
+      ],
+      strokes: ["src/assets/lesson12/early/sou-haya(i)_1.svg", "src/assets/lesson12/early/sou-haya(i)_2.svg", "src/assets/lesson12/early/sou-haya(i)_3.svg", "src/assets/lesson12/early/sou-haya(i)_4.svg", "src/assets/lesson12/early/sou-haya(i)_5.svg", "src/assets/lesson12/early/sou-haya(i)_6.svg"],
+      lesson: "Lesson 12"
+    },
+    {
+      character: "起", meaning: "to get up", onyomi: "き", kunyomi: "お",
+      examples: [
+        {kanji: "起きる", kana: "おきる", eng: "to get up"},
+        {kanji: "起こす", kana: "おこす", eng: "to wake someone up"},
+        {kanji: "再起動", kana: "さいきどう", eng: "reboot"}
+      ],
+      strokes: ["src/assets/lesson12/getup/o(kiru)_1.svg", "src/assets/lesson12/getup/o(kiru)_2.svg", "src/assets/lesson12/getup/o(kiru)_3.svg", "src/assets/lesson12/getup/o(kiru)_4.svg", "src/assets/lesson12/getup/o(kiru)_5.svg", "src/assets/lesson12/getup/o(kiru)_6.svg", "src/assets/lesson12/getup/o(kiru)_7.svg", "src/assets/lesson12/getup/o(kiru)_8.svg", "src/assets/lesson12/getup/o(kiru)_9.svg", "src/assets/lesson12/getup/o(kiru)_10.svg"],
+      lesson: "Lesson 12"
+    },
+    {
+      character: "牛", meaning: "cow", onyomi: "ぎゅう", kunyomi: "うし",
+      examples: [
+        {kanji: "牛", kana: "うし", eng: "cow"},
+        {kanji: "牛乳", kana: "ぎゅうにゅう", eng: "milk"},
+        {kanji: "牛肉", kana: "ぎゅうにく", eng: "beef"},
+        {kanji: "子牛", kana: "こうし", eng: "calf; veal"}
+      ],
+      strokes: ["src/assets/lesson12/cow/gyuu-ushi_1.svg", "src/assets/lesson12/cow/gyuu-ushi_2.svg", "src/assets/lesson12/cow/gyuu-ushi_3.svg", "src/assets/lesson12/cow/gyuu-ushi_4.svg"],
+      lesson: "Lesson 12"
+    },
+    {
+      character: "使", meaning: "to use", onyomi: "し", kunyomi: "つか",
+      examples: [
+        {kanji: "使う", kana: "つかう", eng: "to use"},
+        {kanji: "大使", kana: "たいし", eng: "ambassador"},
+        {kanji: "使用中", kana: "しようちゅう", eng: "\"Occupied\""},
+        {kanji: "お使い", kana: "おつかい", eng: "errand"}
+      ],
+      strokes: ["src/assets/lesson12/use/shi-tsuka(u)_1.svg", "src/assets/lesson12/use/shi-tsuka(u)_2.svg", "src/assets/lesson12/use/shi-tsuka(u)_3.svg", "src/assets/lesson12/use/shi-tsuka(u)_4.svg", "src/assets/lesson12/use/shi-tsuka(u)_5.svg", "src/assets/lesson12/use/shi-tsuka(u)_6.svg", "src/assets/lesson12/use/shi-tsuka(u)_7.svg", "src/assets/lesson12/use/shi-tsuka(u)_8.svg"],
+      lesson: "Lesson 12"
+    },
+    {
+      character: "働", meaning: "to work", onyomi: "どう", kunyomi: "はたら　ばたら",
+      examples: [
+        {kanji: "働く", kana: "はたらく", eng: "to work"},
+        {kanji: "共働き", kana: "ともばたらき", eng: "both husband and wife working"},
+        {kanji: "労働", kana: "ろうどう", eng: "labor"}
+      ],
+      strokes: ["src/assets/lesson12/work/hatara(ku)_1.svg", "src/assets/lesson12/work/hatara(ku)_2.svg", "src/assets/lesson12/work/hatara(ku)_3.svg", "src/assets/lesson12/work/hatara(ku)_4.svg", "src/assets/lesson12/work/hatara(ku)_5.svg", "src/assets/lesson12/work/hatara(ku)_6.svg", "src/assets/lesson12/work/hatara(ku)_7.svg", "src/assets/lesson12/work/hatara(ku)_8.svg", "src/assets/lesson12/work/hatara(ku)_9.svg", "src/assets/lesson12/work/hatara(ku)_10.svg", "src/assets/lesson12/work/hatara(ku)_11.svg", "src/assets/lesson12/work/hatara(ku)_12.svg", "src/assets/lesson12/work/hatara(ku)_13.svg"],
+      lesson: "Lesson 12"
+    },
+    {
+      character: "連", meaning: "to link", onyomi: "れん", kunyomi: "つ",
+      examples: [
+        {kanji: "連れて帰る", kana: "つれてかえる", eng: "to bring (a person) back"},
+        {kanji: "国連", kana: "こくれん", eng: "United Nations"},
+        {kanji: "連休", kana: "れんきゅう", eng: "consecutive holidays"}
+      ],
+      strokes: ["src/assets/lesson12/link/tsura(naru)_1.svg", "src/assets/lesson12/link/tsura(naru)_2.svg", "src/assets/lesson12/link/tsura(naru)_3.svg", "src/assets/lesson12/link/tsura(naru)_4.svg", "src/assets/lesson12/link/tsura(naru)_5.svg", "src/assets/lesson12/link/tsura(naru)_6.svg", "src/assets/lesson12/link/tsura(naru)_7.svg", "src/assets/lesson12/link/tsura(naru)_8.svg", "src/assets/lesson12/link/tsura(naru)_9.svg", "src/assets/lesson12/link/tsura(naru)_10.svg"],
+      lesson: "Lesson 12"
+    },
+    {
+      character: "別", meaning: "to separate", onyomi: "べつ", kunyomi: "わか",
+      examples: [
+        {kanji: "別れる", kana: "わかれる", eng: "to separate"},
+        {kanji: "別に", kana: "べつに", eng: "not in particular"},
+        {kanji: "特別な", kana: "とくべつな", eng: "special"},
+        {kanji: "差別", kana: "さべつ", eng: "discrimination"},
+        {kanji: "別々に", kana: "べつべつに", eng: "separately"}
+      ],
+      strokes: ["src/assets/lesson12/separate/betsu-waka(re)_1.svg", "src/assets/lesson12/separate/betsu-waka(re)_2.svg", "src/assets/lesson12/separate/betsu-waka(re)_3.svg", "src/assets/lesson12/separate/betsu-waka(re)_4.svg", "src/assets/lesson12/separate/betsu-waka(re)_5.svg", "src/assets/lesson12/separate/betsu-waka(re)_6.svg", "src/assets/lesson12/separate/betsu-waka(re)_7.svg"],
+      lesson: "Lesson 12"
+    },
+    {
+      character: "度", meaning: "time; degrees", onyomi: "ど", kunyomi: "　",
+      examples: [
+        {kanji: "一度", kana: "いちど", eng: "once"},
+        {kanji: "今度", kana: "こんど", eng: "near future"},
+        {kanji: "温度", kana: "おんど", eng: "temperature"},
+        {kanji: "三十度", kana: "さんじゅうど", eng: "30 degrees"},
+        {kanji: "態度", kana: "たいど", eng: "attitude"}
+      ],
+      strokes: ["src/assets/lesson12/time;degrees/do-tabi_1.svg", "src/assets/lesson12/time;degrees/do-tabi_2.svg", "src/assets/lesson12/time;degrees/do-tabi_3.svg", "src/assets/lesson12/time;degrees/do-tabi_4.svg", "src/assets/lesson12/time;degrees/do-tabi_5.svg", "src/assets/lesson12/time;degrees/do-tabi_6.svg", "src/assets/lesson12/time;degrees/do-tabi_7.svg", "src/assets/lesson12/time;degrees/do-tabi_8.svg", "src/assets/lesson12/time;degrees/do-tabi_9.svg"],
+      lesson: "Lesson 12"
+    },
+    {
+      character: "赤", meaning: "red", onyomi: "せき", kunyomi: "あか",
+      examples: [
+        {kanji: "赤", kana: "あか", eng: "red color"},
+        {kanji: "赤い", kana: "あかい", eng: "red"},
+        {kanji: "赤ちゃん", kana: "あかちゃん", eng: "baby"},
+        {kanji: "赤道", kana: "せきどう", eng: "the equator"},
+        {kanji: "赤十字", kana: "せきじゅうじ", eng: "the Red Cross"}
+      ],
+      strokes: ["src/assets/lesson12/red/seki-aka_1.svg", "src/assets/lesson12/red/seki-aka_2.svg", "src/assets/lesson12/red/seki-aka_3.svg", "src/assets/lesson12/red/seki-aka_4.svg", "src/assets/lesson12/red/seki-aka_5.svg", "src/assets/lesson12/red/seki-aka_6.svg", "src/assets/lesson12/red/seki-aka_7.svg"],
+      lesson: "Lesson 12"
+    },
+    {
+      character: "青", meaning: "blue", onyomi: "せい", kunyomi: "あお",
+      examples: [
+        {kanji: "青", kana: "あお", eng: "blue color"},
+        {kanji: "青い", kana: "あおい", eng: "blue"},
+        {kanji: "青年", kana: "せいねん", eng: "youth"},
+        {kanji: "青空", kana: "あおぞら", eng: "blue sky"},
+        {kanji: "青信号", kana: "あおしんごう", eng: "green light"}
+      ],
+      strokes: ["src/assets/lesson12/blue/ao_1.svg", "src/assets/lesson12/blue/ao_2.svg", "src/assets/lesson12/blue/ao_3.svg", "src/assets/lesson12/blue/ao_4.svg", "src/assets/lesson12/blue/ao_5.svg", "src/assets/lesson12/blue/ao_6.svg", "src/assets/lesson12/blue/ao_7.svg", "src/assets/lesson12/blue/ao_8.svg"],
+      lesson: "Lesson 12"
+    },
+    {
+      character: "色", meaning: "color", onyomi: "しき　しょく", kunyomi: "いろ",
+      examples: [
+        {kanji: "色", kana: "いろ", eng: "color"},
+        {kanji: "色々な", kana: "いろいろな", eng: "various"},
+        {kanji: "景色", kana: "けしき", eng: "scenery"},
+        {kanji: "特色", kana: "とくしょく", eng: "characteristic"}
+      ],
+      strokes: ["src/assets/lesson12/color/shoku-iro_1.svg", "src/assets/lesson12/color/shoku-iro_2.svg", "src/assets/lesson12/color/shoku-iro_3.svg", "src/assets/lesson12/color/shoku-iro_4.svg", "src/assets/lesson12/color/shoku-iro_5.svg", "src/assets/lesson12/color/shoku-iro_6.svg"],
       lesson: "Lesson 12"
     },
     
