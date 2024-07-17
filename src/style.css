@@ -18,17 +18,22 @@
     padding: 30px;
 }
 
+input {
+    padding: 10px;
+}
+
 .kanji-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
     gap: 30px;
 }
 
 .kanji-card {
     display: flex;
-    flex: 1;
     font-family: "Inter";
     min-width: 75%;
     max-width: 1050px;
@@ -81,10 +86,16 @@
 
 .strokes-img {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 15px;
     gap: 15px;
 }
 
 .kanji-stroke {
     max-width: 2em;
+}
+
+.selector {
+    margin-left: 1%;
+    margin-top: 1%;
 }
