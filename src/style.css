@@ -78,6 +78,10 @@ input {
     background-color: hsl(0, 0%, 85%);
 }
 
+.search-icon {
+    cursor: pointer;
+}
+
 .kanji-list {
     display: flex;
     flex-direction: column;

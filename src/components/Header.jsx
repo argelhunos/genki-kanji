@@ -11,7 +11,7 @@ const Header = ({searchFilter, optionOne, optionTwo, onOptionClick, onSearchClic
                     <input type="text" onChange={onFieldChange}/>
                 </div>
                 <div onClick={onSearchClick}>
-                    <SearchIcon />
+                    <SearchIcon className='search-icon'/>
                 </div>
             </div>
         </div>

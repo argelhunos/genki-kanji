@@ -59,7 +59,6 @@ function App() {
           break
       }
     }
-    console.log("hi")
   }
 
   const onSelectionChange = (event) => {
@@ -67,7 +66,7 @@ function App() {
     updateLessonFilter(event.target.value)
   }
 
-  useEffect(() => handleSearch(), [selectedFilter])
+  useEffect(() => handleSearch(), [selectedLesson])
 
   return (
     <>
