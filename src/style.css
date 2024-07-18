@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Inter";
 }
 
 .header {
@@ -12,13 +13,12 @@
     z-index: 999;
     background-color: #F89448;
     color: white;
-    font-family: "Inter";
     font-weight: bold;
     font-size: xx-large;
     padding: 30px;
 }
 
-.searchbar {
+.header .searchbar {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,6 +27,55 @@
 
 input {
     padding: 10px;
+    box-sizing: border-box;
+    height: 40px;
+    border: none;
+}
+
+.searchfield {
+    display: grid;
+    grid-auto-flow: column;
+    height: 40px;
+}
+
+.dropdown {
+    display: flex;
+    height: 40px;
+}
+
+.dropdown button {
+    background-color: hsla(0, 0%, 100%, 0.726);
+    padding: 10px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.dropdown p {
+    padding: 10px;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    top: 70%; /* incredibly janky way to make sure that content is below the search bar*/
+    font-size: small;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.dropdown p:hover {
+    background-color: hsl(0, 0%, 85%);
 }
 
 .kanji-list {
@@ -41,7 +90,6 @@ input {
 
 .kanji-card {
     display: flex;
-    font-family: "Inter";
     min-width: 75%;
     max-width: 1050px;
     background-color: #F7F7F7;

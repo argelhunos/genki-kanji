@@ -1,12 +1,18 @@
 import SearchIcon from '@mui/icons-material/Search';
+import Dropdown from './Dropdown';
 
-const Header = () => {
+const Header = ({searchFilter, optionOne, optionTwo, onOptionClick, onSearchClick, onFieldChange}) => {
     return (
         <div className="header">
             <p>Genki Kanji</p>
             <div className='searchbar'>
-                <input type="text" />
-                <SearchIcon />
+                <div className='searchfield'>
+                    <Dropdown searchFilter={searchFilter} optionOne={optionOne} optionTwo={optionTwo} onOptionClick={onOptionClick} />
+                    <input type="text" onChange={onFieldChange}/>
+                </div>
+                <div onClick={onSearchClick}>
+                    <SearchIcon />
+                </div>
             </div>
         </div>
     )
