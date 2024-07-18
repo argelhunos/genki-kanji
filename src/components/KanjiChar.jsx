@@ -2,7 +2,7 @@ const KanjiChars = ({kanjis}) => {
     return (
         <div className="kanji-list">
             {kanjis.map(kanji =>
-                <div key={kanji.character} className="kanji-card">
+                <div key={kanji.meaning} className="kanji-card">
                     <div className="kanji-reading">
                         <p className="kanji-character">{kanji.character}</p>
                         <div className="on-kun">
@@ -17,7 +17,7 @@ const KanjiChars = ({kanjis}) => {
                         <div className="examples">
                             <ul>
                                 {kanji.examples.map(word =>
-                                    <li key={word.kanji}>{word.kanji} ({word.kana}) {word.eng}</li>
+                                    <li key={word.kanji + '-' + word.kana}>{word.kanji} ({word.kana}) {word.eng}</li>
                                 )}
                             </ul>
                         </div>

@@ -1121,7 +1121,7 @@ const kanjidata = [
       examples: [
         {kanji: "住む", kana: "すむ", eng: "to live"},
         {kanji: "住所", kana: "じゅうしょ", eng: "address"},
-        {kanji: "住所", kana: "じゅうしょ", eng: "to immigrate"}
+        {kanji: "移住する", kana: "いじゅうする", eng: "to immigrate"}
       ],
       strokes: ["src/assets/lesson10/live/juu-su(mu)_1.svg", "src/assets/lesson10/live/juu-su(mu)_2.svg", "src/assets/lesson10/live/juu-su(mu)_3.svg", "src/assets/lesson10/live/juu-su(mu)_4.svg", "src/assets/lesson10/live/juu-su(mu)_5.svg", "src/assets/lesson10/live/juu-su(mu)_6.svg", "src/assets/lesson10/live/juu-su(mu)_7.svg"],
       lesson: "Lesson 10"
@@ -1269,8 +1269,7 @@ const kanjidata = [
         {kanji: "手紙", kana: "てがみ", eng: "letter"},
         {kanji: "歌手", kana: "かしゅ", eng: "singer"},
         {kanji: "歌手", kana: "", eng: "hand"},
-        {kanji: "手話", kana: "しゅわ", eng: "sign language"},
-        {kanji: "歌手", kana: "かしゅ", eng: "singer"}
+        {kanji: "手話", kana: "しゅわ", eng: "sign language"}
       ],
       strokes: ["src/assets/lesson11/hand/te_1.svg", "src/assets/lesson11/hand/te_2.svg", "src/assets/lesson11/hand/te_3.svg", "src/assets/lesson11/hand/te_4.svg"],
       lesson: "Lesson 11"
