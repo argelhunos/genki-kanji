@@ -29,7 +29,7 @@ const KanjiChars = ({kanjis}) => {
                                 )}
                             </div>
                         </div>
-                        <p className="lesson-number">{kanji.lesson.replace("Lesson ", "L")}</p>
+                        <p className="lesson-number">{kanji.lesson}</p>
                     </div>
                 </div>
             )}

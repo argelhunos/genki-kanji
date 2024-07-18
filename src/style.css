@@ -92,6 +92,31 @@ input {
     gap: 30px;
 }
 
+@media screen and (max-width: 650px) {
+    .kanji-card {
+        flex-direction: column;
+    }
+
+    .examples-and-stroke {
+        flex-direction: column;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .strokes {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 651px) {
+    .strokes {
+        padding-left: 15px;
+    }
+}
+
 .kanji-card {
     display: flex;
     min-width: 75%;
@@ -138,7 +163,6 @@ input {
 }
 
 .strokes {
-    padding-left: 15px;
     justify-self: flex-end;
     flex: 1;
 }
@@ -156,14 +180,7 @@ input {
 
 .lesson-number {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #45BB53;
-    font-weight: bold;
-    color: white;
-    border-radius: 3em;
-    width: 3em;
-    height: 2em;
+    opacity: 50%;
 }
 
 .selector {
