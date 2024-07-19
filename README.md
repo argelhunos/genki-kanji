@@ -1,4 +1,4 @@
-## Genki Kanji
+# Genki Kanji
 
 [_Genki Kanji_][1] is a free resource to quickly search through the Kanji taught in the Genki 1 textbook.
 
@@ -8,7 +8,7 @@ I also thought that teachers can use this when making lesson materials to quickl
 
 Try it here! [Genki Kanji][1]
 
-# Installation to Run Locally
+## Installation to Run Locally
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
