@@ -4,7 +4,10 @@ import Dropdown from './Dropdown';
 const Header = ({searchFilter, optionOne, optionTwo, onOptionClick, onSearchClick, onFieldChange}) => {
     return (
         <div className="header">
-            <p>Genki Kanji</p>
+            <div className='logo-links'>
+                <p>Genki Kanji</p>
+                <a href="about">About</a>
+            </div>
             <div className='searchbar'>
                 <div className='searchfield'>
                     <Dropdown searchFilter={searchFilter} optionOne={optionOne} optionTwo={optionTwo} onOptionClick={onOptionClick} />

@@ -3,6 +3,7 @@ import Header from "./components/Header.jsx"
 import KanjiChars from "./components/KanjiChar.jsx"
 import Selector from "./components/Selector.jsx"
 import kanjidata from "./assets/kanjidata.js"
+import NotFound from "./components/NotFound.jsx"
 
 function App() {
   const [selectedLesson, setSelectedLesson] = useState("All Lessons")
@@ -73,7 +74,7 @@ function App() {
       <div>
         <Header searchFilter={selectedFilter} optionOne={filterOptionOne} optionTwo={filterOptionTwo} onOptionClick={filterChangeHandler} onSearchClick={handleSearch} onFieldChange={handleFieldChange}/>
         <Selector onchange={onSelectionChange} />
-        <KanjiChars kanjis={kanjiToDisplay} />
+        {kanjiToDisplay.length != 0 ? <KanjiChars kanjis={kanjiToDisplay} /> : <NotFound/> } 
       </div>
     </>
   )
