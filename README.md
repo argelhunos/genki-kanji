@@ -16,17 +16,38 @@ Installation:
 
 `npm install`  
 
-To Run Test Suite:  
-
-`npm test`  
-
 To Start Server:
 
-`npm start`  
+`npm run dev`  
 
 To Visit App:
 
-`localhost:3000`  
+`localhost:3000/genki-kanji/`
+
+# Contributing
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+# Features I Plan to Implement
+
+1. Add missing kanji from Genki 2 (maybe when I finish studying Genki 1 myself)
+2. Dark mode
+3. Accessibility adjustments (high contrast ?)
+4. Some kind of lazy image loading to decrease load on server
+5. Create download links to clean modern powerpoint slides of kanji strokes for each lesson
+
+# Acknowledgements
+
+Special thanks to the team behind [_Kanji Alive_][2] for their kanji strokes and Takashi Mifune for all of the [_illustrations_][3].
 
 
-[1]: http://placeholder
+[1]: https://argelhunos.github.io/genki-kanji/
+[2]: https://github.com/kanjialive/kanji-data-media
+[3]: https://www.irasutoya.com
