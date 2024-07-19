@@ -11,12 +11,12 @@ import About from './about-page.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/genki-kanji/",
     element: <App />,
     errorElement: <ErrorPage />
   },
   {
-    path: "about",
+    path: "/genki-kanji/about",
     element: <About />
   }
 ])

@@ -1,12 +1,13 @@
 import SearchIcon from '@mui/icons-material/Search';
 import Dropdown from './Dropdown';
+import { Link } from 'react-router-dom';
 
 const Header = ({searchFilter, optionOne, optionTwo, onOptionClick, onSearchClick, onFieldChange}) => {
     return (
         <div className="header">
             <div className='logo-links'>
                 <p>Genki Kanji</p>
-                <a href="about">About</a>
+                <Link to="/genki-kanji/"></Link>
             </div>
             <div className='searchbar'>
                 <div className='searchfield'>
