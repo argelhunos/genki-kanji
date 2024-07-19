@@ -19,7 +19,9 @@ const router = createHashRouter([
     path: "about",
     element: <About />
   }
-])
+], {
+  basename: "/genki-kanji"
+})
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
