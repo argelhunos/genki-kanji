@@ -1,8 +1,32 @@
-# React + Vite
+## Genki Kanji
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[_Genki Kanji_][1] is a free resource to quickly search through the Kanji taught in the Genki 1 textbook.
 
-Currently, two official plugins are available:
+This web app is mainly geared towards students and instructors. I thought of it since I had trouble remembering which kanji I was expected to know when doing my textbook homework.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I also thought that teachers can use this when making lesson materials to quickly check if students are expected to know certain kanji's in each chapter.
+
+Try it here! [Genki Kanji][1]
+
+# Installation to Run Locally
+
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+
+Installation:
+
+`npm install`  
+
+To Run Test Suite:  
+
+`npm test`  
+
+To Start Server:
+
+`npm start`  
+
+To Visit App:
+
+`localhost:3000`  
+
+
+[1]: http://placeholder
