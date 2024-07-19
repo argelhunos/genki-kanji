@@ -7,7 +7,7 @@ const Header = ({searchFilter, optionOne, optionTwo, onOptionClick, onSearchClic
         <div className="header">
             <div className='logo-links'>
                 <p>Genki Kanji</p>
-                <Link to="/genki-kanji/">About</Link>
+                <Link to="/genki-kanji/about">About</Link>
             </div>
             <div className='searchbar'>
                 <div className='searchfield'>

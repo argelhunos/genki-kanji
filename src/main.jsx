@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
-    path: "/genki-kanji/about",
+    path: "/genki-kanji/about/",
     element: <About />
   }
 ])

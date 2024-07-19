@@ -8,7 +8,7 @@ export default function About() {
             <div className="about-body">
                 <div className="intro-section">
                     <div className="left-img">
-                        <img src="src/assets/img/kikokushijo_boy.png" alt="" />
+                        <img src="./assets/img/kikokushijo_boy.png" alt="" />
                     </div>
                     <section className="text">
                         <h1>Welcome to the Genki Kanji Lookup App!</h1>
@@ -31,9 +31,9 @@ export default function About() {
                 </div>
                 <h1>Useful Resources</h1>
                 <div className="resources">
-                    <Resource name={"Jisho"} link={"https://jisho.org"} description={"Powerful Japanese-English dictionary I use all the time!"} image={"src/assets/img/jisho-icon-filled-256.png"}/>
-                    <Resource name={"Seth Clydesdale's Genki Study Resources"} link={"https://sethclydesdale.github.io/genki-study-resources/lessons-3rd/"} description={"One stop shop for a bunch of exercises from each lesson. Covers both Genki 1/Genki 2 and even has premade anki decks for you to download."} image={"src/assets/img/seth.png"}/>
-                    <Resource name={"NIHONGO eな"} link={"https://nihongo-e-na.com/eng/"} description={"A collection of various websites and online tools and apps managed by The Japan Foundation. Recommended by my Japanese teacher!"} image={"src/assets/img/ena-bannar-160-60.png"}/>
+                    <Resource name={"Jisho"} link={"https://jisho.org"} description={"Powerful Japanese-English dictionary I use all the time!"} image={"./assets/img/jisho-icon-filled-256.png"}/>
+                    <Resource name={"Seth Clydesdale's Genki Study Resources"} link={"https://sethclydesdale.github.io/genki-study-resources/lessons-3rd/"} description={"One stop shop for a bunch of exercises from each lesson. Covers both Genki 1/Genki 2 and even has premade anki decks for you to download."} image={"./assets/img/seth.png"}/>
+                    <Resource name={"NIHONGO eな"} link={"https://nihongo-e-na.com/eng/"} description={"A collection of various websites and online tools and apps managed by The Japan Foundation. Recommended by my Japanese teacher!"} image={"./assets/img/ena-bannar-160-60.png"}/>
                 </div>
                 <h1>Acknowledgements</h1>
                 <p>Special thanks to the creators of Kanji Alive for their kanji stroke images!</p>
