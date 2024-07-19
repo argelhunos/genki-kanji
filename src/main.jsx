@@ -2,14 +2,14 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import {
-  createHashRouter,
+  createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"
 import './style.css'
 import ErrorPage from './error-page.jsx'
 import About from './about-page.jsx'
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
@@ -19,9 +19,7 @@ const router = createHashRouter([
     path: "about",
     element: <About />
   }
-], {
-  basename: "/genki-kanji"
-})
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
