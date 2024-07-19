@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://argelhunos.github.io/genki-kanji",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -29,6 +30,5 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "vite": "^5.3.1"
-  },
-  "homepage": "https://argelhunos.github.io/genki-kanji"
+  }
 }
