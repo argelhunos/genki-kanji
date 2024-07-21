@@ -25,7 +25,7 @@ const KanjiChars = ({kanjis}) => {
                             <p><em>{kanji.strokes.length} {kanji.strokes.length > 1 ? "strokes" : "stroke"}</em></p>
                             <div className="strokes-img">
                                 {kanji.strokes.map(stroke =>
-                                    <img src={stroke} key={stroke} className="kanji-stroke"/>
+                                    <img src={stroke} key={stroke} className="kanji-stroke" alt={"Step " + stroke.replace(".svg", "").slice(-1) + " of kanji stroke order for " + kanji.character}/>
                                 )}
                             </div>
                         </div>

@@ -6,7 +6,7 @@ export default function ErrorPage() {
 
     return (
         <div id="error-page">
-            <img src="src/assets/img/internet_404_page_not_found.png" alt="404 Not Found" />
+            <img src="./assets/img/internet_404_page_not_found.png" alt="404 Not Found" />
             <h1>Whoops!</h1>
             <p>An unexpected error has occured.</p>
             <p>
