@@ -36,35 +36,34 @@ function App() {
     setSearchField(event.target.value)
   }
 
-  const updateLessonFilter = (lesson) => {
+  const handleSearch = () => {
+    let filteredKanji = selectedLesson === "All Lessons" ? kanjidata : kanjidata.filter(kanji => kanji.lesson === selectedLesson)
+
+    if (searchField.length > 0) {
+      switch (selectedFilter) {
+        case "Kanji":
+          filteredKanji = filteredKanji.filter(kanji => kanji.character === searchField)
+          break
+        case "On'yomi":
+          filteredKanji = filteredKanji.filter(kanji => kanji.onyomi.includes(searchField))
+          break
+        default:
+          filteredKanji = filteredKanji.filter(kanji => kanji.kunyomi.includes(searchField))
+          break
+      }
+    }
+
+    setKanjiToDisplay(filteredKanji)
+  }
+
+  const onSelectionChange = (event) => {
+    setSelectedLesson(event.target.value)
+    
     if (lesson === "All Lessons") {
       setKanjiToDisplay(kanjidata)
     } else {
       setKanjiToDisplay(kanjidata.filter(kanji => kanji.lesson === lesson))
     }
-  }
-
-  const handleSearch = () => {
-    if (searchField.length == 0) {
-      updateLessonFilter(selectedLesson)
-    } else {
-      switch (selectedFilter) {
-        case "Kanji":
-          setKanjiToDisplay(kanjiToDisplay.filter(kanji => kanji.character === searchField))
-          break
-        case "On'yomi":
-          setKanjiToDisplay(kanjiToDisplay.filter(kanji => kanji.onyomi.includes(searchField)))
-          break
-        default:
-          setKanjiToDisplay(kanjiToDisplay.filter(kanji => kanji.kunyomi.includes(searchField)))
-          break
-      }
-    }
-  }
-
-  const onSelectionChange = (event) => {
-    setSelectedLesson(event.target.value)
-    updateLessonFilter(event.target.value)
   }
 
   useEffect(() => handleSearch(), [selectedLesson])
