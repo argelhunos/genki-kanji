@@ -12,7 +12,7 @@ const Header = ({searchFilter, optionOne, optionTwo, onOptionClick, onSearchClic
             <div className='searchbar'>
                 <div className='searchfield'>
                     <Dropdown searchFilter={searchFilter} optionOne={optionOne} optionTwo={optionTwo} onOptionClick={onOptionClick} />
-                    <input type="text" onChange={onFieldChange}/>
+                    <input type="text" onChange={onFieldChange} onKeyDown={(e) => e.key === 'Enter' ? onSearchClick() : null}/>
                 </div>
                 <div onClick={onSearchClick}>
                     <SearchIcon className='search-icon'/>
