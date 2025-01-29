@@ -456,7 +456,7 @@ const kanjidata = [
       lesson: "Lesson 5"
     },
     {
-      character: "飲", meaning: "drink", onyomi: "いん", kunyomi: "のむ",
+      character: "飲", meaning: "drink", onyomi: "いん", kunyomi: "の",
       examples: [
         {kanji: "飲む", kana: "のむ", eng: "to drink"},
         {kanji: "飲み物", kana: "のみもの", eng: "drink"},
@@ -990,11 +990,11 @@ const kanjidata = [
         {kanji: "氏名", kana: "しめい", eng: "full name"},
         {kanji: "名字", kana: "みょうじ", eng: "family name"}
       ],
-      strokes: [],
+      strokes: ["./assets/lesson9/name/na(mae)_1.svg", "./assets/lesson9/name/na(mae)_2.svg", "./assets/lesson9/name/na(mae)_3.svg", "./assets/lesson9/name/na(mae)_4.svg", "./assets/lesson9/name/na(mae)_5.svg", "./assets/lesson9/name/na(mae)_6.svg"],
       lesson: "Lesson 9"
     },
     {
-      character: "白", meaning: "white", onyomi: "はく", kunyomi: "",
+      character: "白", meaning: "white", onyomi: "はく", kunyomi: "しろ",
       examples: [
         {kanji: "白い", kana: "しろい", eng: "white"},
         {kanji: "白紙", kana: "はくし", eng: "blank sheet"},
@@ -1331,6 +1331,15 @@ const kanjidata = [
       ],
       strokes: ["./assets/lesson11/ill/yamai_1.svg", "./assets/lesson11/ill/yamai_2.svg", "./assets/lesson11/ill/yamai_3.svg", "./assets/lesson11/ill/yamai_4.svg", "./assets/lesson11/ill/yamai_5.svg", "./assets/lesson11/ill/yamai_6.svg", "./assets/lesson11/ill/yamai_7.svg", "./assets/lesson11/ill/yamai_8.svg", "./assets/lesson11/ill/yamai_9.svg", "./assets/lesson11/ill/yamai_10.svg"],
       lesson: "Lesson 11"
+    },
+    {
+      character: "映", meaning: "to reflect", onyomi: "えい", kunyomi: "うつ",
+      examples: [
+        {kanji: "映画", kana: "えいが", eng: "movie"},
+        {kanji: "映画館", kana: "えいがかん", eng: "movie theater"},
+        {kanji: "映る", kana: "うつる", eng: "to be reflected"},
+      ],
+      stroke
     },
     {
       character: "映", meaning: "to reflect", onyomi: "えい", kunyomi: "うつ",
