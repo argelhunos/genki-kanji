@@ -1339,15 +1339,6 @@ const kanjidata = [
         {kanji: "映画館", kana: "えいがかん", eng: "movie theater"},
         {kanji: "映る", kana: "うつる", eng: "to be reflected"},
       ],
-      stroke
-    },
-    {
-      character: "映", meaning: "to reflect", onyomi: "えい", kunyomi: "うつ",
-      examples: [
-        {kanji: "映画", kana: "えいが", eng: "movie"},
-        {kanji: "映画館", kana: "えいがかん", eng: "movie theater"},
-        {kanji: "映る", kana: "うつる", eng: "to be reflected"},
-      ],
       strokes: ["./assets/lesson11/reflect/ei-utsu(ru)_1.svg", "./assets/lesson11/reflect/ei-utsu(ru)_2.svg", "./assets/lesson11/reflect/ei-utsu(ru)_3.svg", "./assets/lesson11/reflect/ei-utsu(ru)_4.svg", "./assets/lesson11/reflect/ei-utsu(ru)_5.svg", "./assets/lesson11/reflect/ei-utsu(ru)_6.svg", "./assets/lesson11/reflect/ei-utsu(ru)_7.svg", "./assets/lesson11/reflect/ei-utsu(ru)_8.svg", "./assets/lesson11/reflect/ei-utsu(ru)_9.svg"],
       lesson: "Lesson 11"
     },
